@@ -16,18 +16,18 @@ const stages = [
   {id: 1, name: "start"},
   {id: 2, name: "game"},
   {id: 3, name: "end"},
-]
+];
 
 function App() {
-  const [gameStage, setGameStage] = useState(stages[0].name)
+  const [gameStage, setGameStage] = useState(stages[0].name);
   const [words] = useState(wordsList);
 
   const [pickedWord, setPickedWord] = useState("");
   const [pickedCategory, setPickedCategory] = useState("");
   const [letters, setLetters] = useState([]);
 
-  const [guessedLetters, setGuessedLetters] = useState("");
-  const [wrongLetters, setWrongLetters] = useState("");
+  const [guessedLetters, setGuessedLetters] = useState([]);
+  const [wrongLetters, setWrongLetters] = useState([]);
   const [guesses, setGuesses] = useState(5);
   const [score, setScore] = useState(0);
 
