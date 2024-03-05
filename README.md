@@ -1,3 +1,44 @@
+# Jogo da Forca
+
+## Descrição
+
+Jogo da Forca é um jogo de adivinhação de palavras simples e envolvente, desenvolvido como parte do meu processo de aprendizado em React. Neste jogo, os jogadores recebem dicas baseadas na categoria da palavra (ex.: corpo, ciências, alimentação, etc.) e devem adivinhar a palavra corretamente para pontuar. Cada letra adivinhada incorretamente custa uma tentativa ao jogador. Adivinhar corretamente toda a palavra concede pontos ao jogador. O jogo escolhe dinamicamente uma categoria e uma palavra dentro dessa categoria para desafiar o jogador, enriquecendo a experiência de aprendizado com dicas variadas e temáticas.
+
+## Motivação
+
+Este projeto foi criado durante um curso de React para aplicar e testar minhas habilidades emergentes em React e estilização CSS. O objetivo era criar uma forma divertida e interativa de engajar com as capacidades do React, desafiando-me a melhorar minha estilização em CSS.
+
+## Instalação
+
+Este jogo requer apenas React e NPM para rodar. Aqui estão os passos para começá-lo em sua máquina local:
+
+1. Clone o repositório para sua máquina local.
+2. Navegue até o diretório do projeto.
+3. Execute `npm install` para instalar as dependências do projeto.
+4. Para iniciar o jogo, execute `npm start`. O jogo estará disponível em `http://localhost:3000`.
+
+## Uso
+
+Uma vez que o jogo inicia, uma categoria de palavra é exibida como dica para o jogador. Sua tarefa é adivinhar a palavra relacionada à dica dada. Cada letra adivinhada incorretamente reduzirá suas tentativas em uma. Adivinhar corretamente todas as letras da palavra antes de esgotar as tentativas lhe concederá pontos. O jogo oferece uma série de palavras através de diferentes categorias para testar suas habilidades de adivinhação.
+
+## Contribuição
+
+Como este projeto faz parte do meu processo de aprendizado em React, estou aberto a qualquer feedback ou sugestões que possam ajudar a melhorá-lo. Sinta-se livre para fazer um fork do repositório e propor mudanças através de pull requests.
+
+## Licença
+
+Atualmente, este projeto é destinado para estudo pessoal e uso, não estando licenciado para outras utilizações ou distribuição.
+
+## Contato
+
+Para perguntas, sugestões ou discussões sobre contribuições, por favor, entre em contato comigo através de mensagens no GitHub.
+
+
+
+
+
+
+EXTRA INFO
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
